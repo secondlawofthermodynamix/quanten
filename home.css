@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Helvetica.woff') format('woff');;
+}
+
+@font-face {
+  font-family: 'Black';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Helveticablck.woff') format('woff');
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.cat {
+  display: flex;
+  justify-content: center;
+}
+
+.catface {
+  width: 500px;
+}
+
+.info {
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
